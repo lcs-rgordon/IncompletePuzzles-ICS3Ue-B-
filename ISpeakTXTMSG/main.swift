@@ -23,11 +23,13 @@ let phrase = readLine()!
 func translate(phrase shortForm: String) -> String {
 
     // NOTE: Instead of an "if statement" consider using a different type of Swift structure to handle all the different possible cases...
-    if phrase == "TA" {
+    if shortForm == "TA" {
         return "totally awesome"
-    } else if phrase == "TTYL" {
+    } else if shortForm == "TTYL" {
         return "talk to you later"
     }
+    
+    return ""
 
 }
 
